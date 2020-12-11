@@ -1,0 +1,78 @@
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+}
+
+#bio {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: auto;
+    text-align:center;
+}
+
+p {
+    max-width: 450px;
+    margin: 20px auto;
+    line-height: 1.3;
+}
+
+.Menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: azure;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links:hover {
+    background-color: orangered;
+}
+
+h3 {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+}
+body{
+    padding-top:800px;
+    text-align:center;
+}
+#inner-welcome{
+    display:table-cell;
+    vertical-align:middle;
+}
+.profile{
+    border-radius:200px;
+}
+#Vid{
+    text-align:left;
+}
+
